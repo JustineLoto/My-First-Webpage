@@ -4,25 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1><center>PORTFOLIO</h1>
-        <h2>BASIC INFORMATION</h2>
-        <img src="IDPicture.jpg" width="150" height="180" border="3">
-        <p><b>Name:</b> Justine F. Loto</p>
-        <p><b>Address:</b> Cawit Boac, Marinduque</p>
-        <p><b>Age: </b>21</p>
-        <p><b>Email Address:</b> <u>floraldejustine25@gmail.com</u></p>
-        <p><b>Contact No. :</b> 09518589890</p>
-        <p><b>Mothers Name:</b> Florita F. Loto</p>
-        <p><b>Fathers Name:</b> Jerrylo M. Loto</p>
-        
-        <h3>MY HOBBIES</h3>
-        <ul type="square"> 
-        <li>Sleeping</li>
-        <li>Watching Anime</li>
-        <li>Eating</li>
-        <li>Gardening</li>
+<header>
+    <nav>
+        <ul>
+            <li><a class="active"></a></li>
+            <li><a  href="#AboutMe">About Me</a></li>
+            <li><a  href="#BasicInfo">Basic Info</a></li>
+            <li><a  href="#Hobbies">Hobbies</a></li>
         </ul>
+    </nav>
+</header>
+<body>
+    <section id="AboutMe">
+        <div class="content">
+            <div class="image-container"> 
+            <img src="IDPicture.jpg">
+            <h1>Hi! I'm Justine.
+            </h1>
+            <p>This is my first webpage.<br>
+                 A personal web page which contain basic information about me.<br>
+                  This web page is made as an activity for subject Web Development.</p>
+            </div>
+        </div>
+    </section>
+    <section id ="BasicInfo">
+        <div class="content">
+            <div class="image-container"> 
+            <img src="PI.jpg" style = "width: 25%; height: 25%; margin:auto;">
+            <p><b>Name:</b> Justine F. Loto<br>
+            <b>Address:</b> Cawit Boac, Marinduque<br>
+            <b>Age: </b>21<br>
+            <b>Mothers Name:</b> Florita F. Loto<br>
+            <b>Fathers Name:</b> Jerrylo M. Loto<br>
+            <b>Email Address:</b><u> floraldejustine25@gmail.com</u><br>
+            <b>Contact No. :</b> 09518589890</p>
+        </div>
+    </section>
+    <section id ="Hobbies">
+        <div class="content">          
+            <h2>MY HOBBIES</h2>
+            <p>Gardening<br>
+                Sleeping<br>
+                Watching Anime<br>
+                Playing Mobile Games<br>
+                Listening to Music
+            </p>
+        </div>
+    </section>
 </body>
 </html>
